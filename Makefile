@@ -1,7 +1,7 @@
 # Rust crates
 RUSTCRATES            = skirt mddebug
 skirt_BUILD_DEPS      = $(SUNDOWN_NAME)
-mddebug_CRATE_DEPS     = skirt
+mddebug_CRATE_DEPS    = skirt
 
 DEBUG                 ?= 1
 
